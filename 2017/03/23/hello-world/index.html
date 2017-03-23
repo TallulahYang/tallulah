@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=zh>
 <head>
     <meta charset="utf-8">
     
@@ -83,14 +83,14 @@ Quick">
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -102,11 +102,11 @@ Quick">
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -136,7 +136,7 @@ Quick">
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
     </div>
 
                 </td>
@@ -156,16 +156,16 @@ Quick">
             <h2 id="name">Tallulah Yang</h2>
             <h3 id="title">写程序的小女子</h3>
             <span id="location"><i class="fa fa-map-marker"></i>Nanjing, China</span>
-            <a id="follow" target="_blank" href="https://github.com/TallulahYang">FOLLOW</a>
+            <a id="follow" target="_blank" href="https://github.com/TallulahYang">关注我</a>
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
                 1
-                <span>post</span>
+                <span>文章</span>
             </div>
             <div class="article-info-block">
                 0
-                <span>tag</span>
+                <span>标签</span>
             </div>
         </div>
         
@@ -258,7 +258,7 @@ Quick">
 
 </div>
 
-    <a data-url="https://tallulahyang.github.io/2017/03/23/hello-world/" data-id="cj0ltlckj0000sktx7ptldwcj" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://tallulahyang.github.io/2017/03/23/hello-world/" data-id="cj0ltqjqu0000u2txmgedqcdk" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -326,6 +326,8 @@ Quick">
 
             
     
+        <a href="https://tallulahyang.github.io/2017/03/23/hello-world/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://tallulahyang.github.io/2017/03/23/hello-world/">评论</a>
+    
 
         </footer>
     </div>
@@ -339,6 +341,12 @@ Quick">
     
     <section id="comments">
     
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
     </section>
 
 </section>
@@ -347,7 +355,7 @@ Quick">
    
         
     <div class="widget-wrap">
-        <h3 class="widget-title">recent</h3>
+        <h3 class="widget-title">最新文章</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
@@ -379,9 +387,9 @@ Quick">
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">archives</h3>
+        <h3 class="widget-title">归档</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">三月 2017</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -392,7 +400,7 @@ Quick">
     
         
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">links</h3>
+        <h3 class="widget-title">链接</h3>
         <div class="widget">
             <ul>
                 
@@ -419,6 +427,23 @@ Quick">
     </div>
 </footer>
         
+    
+    <script>
+    var disqus_config = function () {
+        
+            this.page.url = 'https://tallulahyang.github.io/2017/03/23/hello-world/';
+        
+        this.page.identifier = 'hello-world';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'talyZoo' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
 
 
     
