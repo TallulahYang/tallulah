@@ -27,16 +27,16 @@
 
 
 /* -------- Global -------- */
-HTML{height:100%;width:100%;}
-BODY{height:100%;width:100%;min-width:320px;background:#fff url('../images/bg_.jpg') no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+HTML{height:100%;width:100%; margin: 0;}
+BODY{height:100%;width:100%;min-width:320px;margin: 0;background:#fff url('../images/bg_.jpg') no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 
 SECTION.top{padding:60px 0 0 200px;max-width:1000px;}
 SECTION.bottom{padding:60px 0 0 200px;max-width:1000px;}
 
-H1{font:normal 50px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#000;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
-H2{font:normal 40px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#cdcfd0;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
-H3{font:normal 40px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#ffbf15;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
-H4{font:normal 30px 'CoreHumanistSansRegular', arial, helvetica, sans-serif;color:#cdcfd0;text-align:left;text-transform:uppercase;line-height:1.2;}
+H1{font:normal 40px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#000;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
+H2{font:normal 30px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#cdcfd0;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
+H3{font:normal 30px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#ffbf15;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
+H4{font:normal 20px 'CoreHumanistSansRegular', arial, helvetica, sans-serif;color:#cdcfd0;text-align:left;text-transform:uppercase;line-height:1.2;}
 
 .fb{color:#415e9b;text-decoration:none;}
 .fb:hover{opacity:0.8;}
@@ -61,6 +61,7 @@ h2 br{
 ul {
     list-style-type: none;
     margin-top: -10px;
+    margin-bottom: 50px;
     max-width: 570px;
     padding: 0;
 }
