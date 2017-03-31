@@ -28,7 +28,7 @@
 
 /* -------- Global -------- */
 HTML{height:100%;width:100%; margin: 0;}
-BODY{height:100%;width:100%;min-width:320px;margin: 0;background:#fff url('../images/bg_.jpg') no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+BODY{background: #fbfffe url(../images/pattern.png) repeat top left;}
 
 SECTION.top{padding:50px 0 0 200px;max-width:800px;}
 SECTION.bottom{padding:60px 0 0 200px;max-width:800px;}
