@@ -23,13 +23,15 @@
 
 }
  
-/** {
+* {
   margin: 0;
   padding: 0;
-}*/
+}
 
 body {
   background: black;
+  margin: 0;
+  padding: 0;
 }
 
 canvas {
@@ -39,7 +41,7 @@ canvas {
 
 /* -------- Global -------- */
 HTML{height:100%;width:100%; margin: 0;}
-BODY{background: #fbfffe url(../images/pattern.png) repeat top left;}
+/*BODY{background: #fbfffe url(../images/pattern.png) repeat top left;}*/
 
 SECTION.top{padding:50px 0 0 200px;max-width:800px;}
 SECTION.bottom{padding:60px 0 0 200px;max-width:800px;}
