@@ -35,7 +35,7 @@ body {
 canvas {
   display: block;
   opacity: 0.4;
-  
+
     width: 100%;
     height: 100%;
     top: 0;
@@ -52,7 +52,7 @@ HTML{height:100%;width:100%; margin: 0;}
 SECTION.top{padding:50px 0 0 200px;max-width:800px;}
 SECTION.bottom{padding:60px 0 0 200px;max-width:800px;}
 
-H1{font:normal 45px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#000;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
+H1{font:normal 45px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#cdcfd0;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
 H2{font:normal 35px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#cdcfd0;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
 H3{font:normal 35px 'brandon_grotesqueblack', arial, helvetica, sans-serif;color:#ffbf15;text-align:left;text-transform:uppercase;line-height:1.2;margin:0 0 20px 0;}
 H4{font:normal 25px 'CoreHumanistSansRegular', arial, helvetica, sans-serif;color:#cdcfd0;text-align:left;text-transform:uppercase;line-height:1.2;}
