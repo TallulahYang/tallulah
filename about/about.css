@@ -30,18 +30,18 @@
 
 body {
   background: black;
-  margin: 0;
-  padding: 0;
 }
 
 canvas {
   display: block;
+  opacity: 0.4;
 }
 
 
 /* -------- Global -------- */
 HTML{height:100%;width:100%; margin: 0;}
 /*BODY{background: #fbfffe url(../images/pattern.png) repeat top left;}*/
+
 
 SECTION.top{padding:50px 0 0 200px;max-width:800px;}
 SECTION.bottom{padding:60px 0 0 200px;max-width:800px;}
@@ -88,6 +88,9 @@ ul {
     margin: 15px 15px 0 0;
     padding: 10px;
     text-align: justify;
+
+    background: #fbfffe url(../images/pattern.png) repeat top left;
+    color: #000;
 }
 .skill-set li:hover
 {
@@ -107,4 +110,11 @@ SECTION.bottom{padding:60px 20px 0 40px;}
 H1{font:normal 40px 'brandon_grotesqueblack', arial, helvetica, sans-serif;line-height:0.95;}
 H2{font:normal 30px 'brandon_grotesqueblack', arial, helvetica, sans-serif;line-height:0.95;}
 H3{font:normal 30px 'brandon_grotesqueblack', arial, helvetica, sans-serif;line-height:0.95;}
+}
+
+
+section.top{
+  /*background: #fbfffe url(../images/pattern.png) repeat top left;*/
+  position: absolute;
+  top:0;
 }
